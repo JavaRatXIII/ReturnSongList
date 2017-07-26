@@ -11,8 +11,8 @@ import Utilities.ArrayListFactory;
  */
 public class ReturnMP3s implements IReturnMP3s{
     
-    private ArrayList<String> _songsInDirectory;
-    private IArrayListFactory _arrayListFactory;
+    private final ArrayList<String> _songsInDirectory;
+    private final IArrayListFactory _arrayListFactory;
     
     public ReturnMP3s()
     {
