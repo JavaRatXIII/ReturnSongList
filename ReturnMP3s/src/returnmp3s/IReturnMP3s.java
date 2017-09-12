@@ -5,6 +5,7 @@
  */
 package returnmp3s;
 
+import java.io.File;
 import java.util.ArrayList;
 
 /**
@@ -13,4 +14,6 @@ import java.util.ArrayList;
  */
 public interface IReturnMP3s {
     public ArrayList getAllFiles();
+    
+    public void findDir(File root, String name);
 }
